@@ -11,5 +11,6 @@ public class Stairs {
 			ways[n]=climbStairs(n-1,ways)+climbStairs(n-2, ways);
 		}
 		return ways[n];
+
 	}
 }
